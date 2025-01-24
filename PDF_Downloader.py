@@ -46,5 +46,5 @@ def download_pdf(url, folder="downloads"):
 
 
 if __name__ == "__main__":
-    url = input("Enter the URL to scrape: ")
+    url = input("Enter the url to search the files: ")
     download_pdf(url)
